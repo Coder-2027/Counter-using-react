@@ -1,0 +1,80 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App{
+  width: 100vw;
+  height: 100vh;
+  background-color: #4F772D;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+.heading{
+  font-size: 2rem;
+  font-family: sans-serif;
+  color: white;
+  background-color: #31572C;
+  padding: 1rem;
+  border-radius: 1rem;
+  border-bottom: .1rem solid #132A13;
+}
+
+.container{
+  display: flex;
+  background-color: #ECF39E;
+  border-radius: .5rem;
+  overflow: hidden;
+}
+
+.decrement{
+  width: 4rem;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-right: .1rem solid gray;
+}
+
+.increment{
+  width: 4rem;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-left: .1rem solid gray;
+}
+
+.display{
+  width: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  font-family: sans-serif;
+}
+
+.reset{
+  font-size: 1rem;
+  color: white;
+  padding: .5rem 2rem;
+  background-color: #4c956c;
+  border: none;
+  outline: none;
+  border-radius: .5rem;
+  border-bottom: .1rem solid #004b23;
+  cursor: pointer;
+}
